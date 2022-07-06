@@ -1,0 +1,18 @@
+    1  cd Fintech-Workspace/Challenge/
+    2  conda activate dev
+    3  git clone https://github.com/nayananarayananp/Crypto_Analysis.git
+    4  cd Crypto_Analysis/
+    5  ls
+    6  git status
+    7  git status
+    8  cd Resources/
+    9  ls
+   10  cd ..
+   11  ls
+   12  git add *
+   13  git status
+   14  git add .gitignore 
+   15  git status
+   16  git commit -m "Create Jupyter notebook for crypto analysis" 
+   17  git push
+   18  history 50 > terminal_history.txt
