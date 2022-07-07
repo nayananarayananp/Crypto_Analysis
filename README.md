@@ -176,4 +176,61 @@ $ history 50 > terminal_history.txt
 ```
 Attached to [](./terminal_history.txt)
 
+### Second commit and push
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   crypto_arbitrage.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        terminal_history.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
+$ git add *
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        modified:   crypto_arbitrage.ipynb
+        new file:   terminal_history.txt
+
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
+$ git commit -m "Commit anaylsis and updated Readme"
+[main 19f8dd3] Commit anaylsis and updated Readme
+ 3 files changed, 3170 insertions(+), 2399 deletions(-)
+ rewrite README.md (100%)
+ rewrite crypto_arbitrage.ipynb (64%)
+ create mode 100644 terminal_history.txt
+(dev)
+nayan@NayanaWork MINGW64 ~/Fintech-Workspace/Challenge/Crypto_Analysis (main)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 429.12 KiB | 18.66 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nayananarayananp/Crypto_Analysis.git
+   98b334f..19f8dd3  main -> main
+(dev)
+    
 ### Final commit and push
+    
+    
+    
+    
+    
